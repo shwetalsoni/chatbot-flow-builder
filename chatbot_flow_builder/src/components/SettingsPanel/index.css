@@ -1,0 +1,47 @@
+aside {
+  border: 1px solid #eee;
+  font-size: 12px;
+}
+
+aside .settings-header{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+aside .settings-header p{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+
+aside .settings-header .back-btn{
+  cursor: pointer;
+}
+
+aside .settings-form{
+  padding: 20px 10px;
+  border-top: 1px solid #ccc8c8;
+  border-bottom: 1px solid #ccc8c8;
+
+}
+
+aside .settings-form p{
+  color: #898888;
+  margin-bottom: 10px;
+}
+
+aside .settings-form form{
+  display: flex;
+  flex-direction: column;
+}
+
+aside .settings-form form textarea{
+  padding: 10px;
+  height: fit-content;
+  resize: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid #ccc8c8;
+  border-radius: 3px;
+}

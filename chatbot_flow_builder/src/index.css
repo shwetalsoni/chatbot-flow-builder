@@ -1,0 +1,95 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.message-node .message-box {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: white;
+}
+
+.message-node .message-box .label-div{
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 170px;
+  background-color: rgb(167, 238, 238);
+  border-radius: 10px 10px 0 0;
+}
+
+.message-node .message-box .label-div .left{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.message-node .message-box .label-div .whatsapp-icon{
+  width: 20px;
+}
+
+.message-node .message-box .main-text{
+  max-width: 323px;
+  border: 0;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.dndflow {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+}
+
+p{
+  margin: 0;
+}
+
+.dndflow .reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.dndflow .selectall {
+  margin-top: 10px;
+}
+
+.dndflow .error{
+  display: block;
+  background-color: rgb(244, 159, 159);
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.dndflow .saved{
+  display: block;
+  background-color: rgb(144, 222, 143);
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .dndflow {
+    flex-direction: row;
+  }
+
+  .dndflow aside {
+    width: 20%;
+    max-width: 250px;
+  }
+}
+
+
